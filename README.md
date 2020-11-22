@@ -7,4 +7,4 @@ Technologies Used:
 > MongoDB : Database Engine
 > React   : FrontEnd Development Library
 > DRF     : Django Rest Framework
-``
+```
