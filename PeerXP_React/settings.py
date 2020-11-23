@@ -12,6 +12,17 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 
 import os
 
+auth_token = '9446933330c7f886fbdf16782906a9e0'
+org_id = '60001280952'
+
+params = "sortBy=createdTime&limit=10"
+
+headers = {
+    "Authorization": auth_token,
+    "orgId": org_id,
+    "contentType": "application/json; charset=utf-8"
+}
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 

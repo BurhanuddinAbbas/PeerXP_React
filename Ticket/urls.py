@@ -14,6 +14,7 @@ router.register(r'categories', CategoryViewSet)
 urlpatterns = [
     path('fetch_ticket/<int:ticket_id>', get_ticket, name='fetch_ticket'),
     path('add_ticket/', add_ticket, name='add_ticket'),
+    path('all_tickets/', all_tickets, name='all_tickets'),
     path('update_ticket/', update_ticket, name='update_ticket'),
     path('', include(router.urls)),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
