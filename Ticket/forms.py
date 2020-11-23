@@ -14,4 +14,4 @@ class TicketForm(forms.ModelForm):
 
     class Meta:
         model = Ticket
-        exclude = ('user',)
+        exclude = ('user','priority',)

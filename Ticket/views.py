@@ -134,11 +134,11 @@ def get_ticket(request, ticket_id):
 
 
 @csrf_exempt
-@api_view(["POST"])
+@require_http_methods(["POST"])
 @permission_classes([IsAuthenticated])
 def add_ticket(request):
-    payload = dict(zip(list(request.data.keys()),
-                       np.array(list(request.data.values())).flatten().tolist()))
+    payload = dict(zip(list(request.POST.keys()),
+                       np.array(list(request.POST.values())).flatten().tolist()))
     form_instance = TicketForm(payload)
     if form_instance.is_valid():
         form_instance.instance.user = request.user
@@ -149,11 +149,11 @@ def add_ticket(request):
 
 
 @csrf_exempt
-@api_view(["POST"])
+@require_http_methods(["POST"])
 @permission_classes([IsAuthenticated])
 def add_ticket(request):
-    payload = dict(zip(list(request.data.keys()),
-                       np.array(list(request.data.values())).flatten().tolist()))
+    payload = dict(zip(list(request.POST.keys()),
+                       np.array(list(request.POST.values())).flatten().tolist()))
     payload.pop('id')
     form_instance = TicketForm(payload)
     if form_instance.is_valid():
@@ -161,7 +161,7 @@ def add_ticket(request):
                 "subject": payload['subject'],
                 "departmentId": payload['department'],
                 "description": payload['description'],
-                "priority": PRIORITIES(int(payload['priority'])).name,
+                "priority": PRIORITIES(int(payload['priority']) or 1).name,
                 "webUrl": payload['lab_url'],
                 "category": get_category_name(payload['category']),
                 "email": request.user.email,
